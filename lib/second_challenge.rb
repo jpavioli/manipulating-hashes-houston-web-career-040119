@@ -8,7 +8,11 @@ def second_challenge
 
   #code your solution here!
   
-  
+  groceries.each do |dept, data|
+    data.each do |item|
+      puts "#{item}"
+    end
+  end
   
 
 end
