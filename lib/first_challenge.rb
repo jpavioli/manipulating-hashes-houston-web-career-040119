@@ -15,7 +15,7 @@ def first_challenge
 
   #your code here
   contacts["Freddy Mercury"][:favorite_icecream_flavors].unshift
-  contacts["Joh Snow"][:address] = "The Lord Commander's Room, The Wall, Westeros"
+
 
   #remember to return your newly altered contacts hash!
   contacts
