@@ -8,8 +8,10 @@ def second_challenge
 
   #code your solution here!
   grocery_list = []
-  groceries.each do |dept|
-    grocery_list << dept.values
+  groceries.each do |dept, data|
+    data.each do |item|
+      grocery_list << "#{item}"
+    end
   end
   grocery_list
 
